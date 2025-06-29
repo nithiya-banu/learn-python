@@ -20,9 +20,9 @@ try:
         Grade = "F"
     print(f"----------Result Summary------------\n"
     f"        {'Name'     :<10}:  {name}                \n" 
-    f"        {'Total'    :<10}:  {Total}               \n"
+    f"        {'Total'    :<10}:  {Total}/300               \n"
     f"        {'Average'  :<10}:  {Average}             \n"
     f"        {'Grade'    :<10}:  {Grade}               ")
 except ValueError:
-    print("Please use alphabets for your name!")
+    print("Please use numeric values for marks!")
 
